@@ -1,0 +1,110 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#8a8f89, #bec7bd); /* Gradient background */
+  color: #333; /* Default text color */
+}
+
+#gameContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px); /* Adjusted height to leave space for score container */
+}
+
+#gameCanvas {
+  border: 2.5px solid #333;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+#startButton {
+  background-color: #2fdb23;
+  color: black;
+  border: 2px solid black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 20px;
+font-family: 'Anton SC', sans-serif;
+letter-spacing: 1px;
+}
+
+#startButton:hover {
+  background-color: #5cfa00;
+border:3px solid white;
+width:15%;
+height:6%;
+font-size:1.1em;
+}
+
+#scoreContainer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 1.2em;
+  font-family: 'Courier New', Courier, monospace; /* Font style for score container */
+}
+
+.score, .highscore {
+  font-size: 18px;
+font-family:'Merriweather';
+letter-spacing:1px;
+  margin: 5px;
+}
+
+#links {
+  background-color: #414145;
+  border: 2px solid black;
+  padding: 10px;
+  width: 23%;
+margin-bottom:20px;
+  margin: 0 auto; /* Centering using auto margins */
+  font-family: 'Merriweather', serif; /* Apply Merriweather font */
+  text-align: center; /* Center text horizontally */
+}
+
+#links p {
+  color: white; /* Text color for <p> element */
+  margin-bottom: 10px; /* Optional: Add space below <p> */
+}
+
+#links a {
+  display: block; /* Display <a> elements as block to take full width */
+  background-color: #2fdb23;
+  color: black;
+  border: 2px solid black;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-bottom: 5px; /* Optional: Add space between <a> elements */
+  border-radius: 20px;
+  font-size: 1em;
+  cursor: pointer;
+  font-family: 'Merriweather', serif; /* Apply Merriweather font */
+}
+
+#links a:hover {
+  background-color: #1ba831; /* Change background color on hover */
+}
+
+
+}
+
+.instructions {
+  margin-bottom: 20px;
+  font-family: 'Noto Serif', italic, sans-serif; /* Font style for instructions */
+color:black;
+font-size:20px;
+}
